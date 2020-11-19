@@ -1,0 +1,1 @@
+A static layout website
