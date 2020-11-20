@@ -27,6 +27,7 @@ a.navi_text {
 
 .titleWrapper {
   position: absolute;
+  align-items: center;
   left: 600px;
   top: 150px;
   display: flex;
@@ -37,14 +38,16 @@ a.navi_text {
 }
 
 .preHeadline {
+  display: flex;
   text-align: center;
   color: #2dbd9d;
+  font-weight: 400;
+  font-size: 15px;
 }
 
 .hulu_headline {
   position: relative;
   display: flex;
-  left: 65px;
   padding: 10px;
   margin: 10px;
   text-align: center;
@@ -53,21 +56,37 @@ a.navi_text {
 }
 
 .subHeadline {
+  display: flex;
   text-align: center;
   margin: 10px;
   color: #ffffff;
+  font-size: 24px;
+  font-weight: 600;
+  width: 700px;
 }
 
 .addOns {
+  display: flex;
   text-align: center;
   margin: 5px;
   color: #ffffff;
+  font-size: 15px;
+  font-weight: 300;
+  width: 500px;
+}
+
+.legal {
+  display: flex;
+  text-align: center;
+  font-size: 12px;
+  font-weight: 400;
+  color: #ffffff;
+  opacity: 0.8;
 }
 
 .button_input {
   display: flex;
   position: relative;
-  left: 90px;
   padding: 0px;
   margin: 20px;
 }
@@ -108,12 +127,7 @@ a.navi_text {
   align-content: flex-start;
   position: absolute;
   top: 775px;
-  background: linear-gradient(
-    318.68deg,
-    #0f495c 0%,
-    #0d3640 49.72%,
-    #08141f 100%
-  );
+  background: linear-gradient(318.68deg, #0f495c 0%, #0d3640 49.72%, #08141f 100%);
   z-index: 1;
 }
 
@@ -126,4 +140,104 @@ a.navi_text {
 
 .content_grid {
   width: 100vw;
+}
+
+.row {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  margin-left: 10%;
+}
+
+.brandsLeft {
+  margin: 0px, 30px;
+  padding: 0px, 70px;
+}
+
+.mini_brands {
+  display: flex;
+  position: relative;
+  width: 350px;
+  height: 90px;
+  margin: 20px;
+  margin-right: 50px;
+}
+
+.bundleBoxCenter {
+  margin-left: 50px;
+  margin-right: 50px;
+}
+
+.bundleBrow {
+  color: #2dbd9d;
+  font-size: 14px;
+  font-weight: 600;
+  margin-bottom: 15px;
+}
+
+.priceDetail {
+  display: flex;
+  position: relative;
+  text-align: center;
+  color: #ffffff;
+  font-size: 25px;
+  width: fit-content;
+}
+
+.learnMore {
+  display: flex;
+  position: relative;
+}
+
+.details_link {
+  text-align: left;
+  color: #ffffff;
+  font-size: 15px;
+  font-weight: 400;
+  margin-top: 25px;
+}
+
+.buttonContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+  margin-left: 275px;
+}
+
+#getBundleButton {
+  display: flex;
+  border-radius: 4px;
+  background-color: transparent;
+  background-image: none;
+  color: #ffffff;
+  border: solid 2px #ffffff;
+  font-weight: 600;
+  line-height: 55px;
+  text-decoration: none;
+  text-transform: uppercase;
+  position: relative;
+  text-align: center;
+  padding-left: 32px;
+  padding-right: 32px;
+  font-size: 15px;
+  height: 60px;
+  font-family: Arial, Helvetica, sans-serif;
+  cursor: pointer;
+  margin-bottom: 20px;
+  transition-duration: 0.4s;
+}
+
+.legalTerms {
+  color: #ffffff;
+  font-size: 12px;
+  opacity: 0.6;
+  font-weight: 400;
+  margin-top: 25px;
+}
+
+#getBundleButton:hover {
+  box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.19);
+  opacity: 0.8;
 }
