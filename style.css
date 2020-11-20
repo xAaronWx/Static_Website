@@ -1,10 +1,129 @@
 body {
   margin: 0;
   padding: 0;
-  font-family: "Graphik", Helvetica, Arial, sans-serif;
+  font-family: "Roboto", sans-serif;
 }
 
 .navi {
   display: flex;
+  font-weight: bold;
+  padding: 20px;
   justify-content: flex-end;
+}
+
+a.navi_text {
+  text-decoration: none;
+  color: #ffffff;
+}
+
+.masthead_image {
+  z-index: -1;
+  position: absolute;
+  top: 0px;
+  margin: 0px;
+  width: 100vw;
+  background-size: cover;
+}
+
+.titleWrapper {
+  position: absolute;
+  left: 600px;
+  top: 150px;
+  display: flex;
+  flex-direction: column;
+  width: 25vw;
+  margin: 4%;
+  padding: 60px, 40px;
+}
+
+.preHeadline {
+  text-align: center;
+  color: #2dbd9d;
+}
+
+.hulu_headline {
+  position: relative;
+  display: flex;
+  left: 65px;
+  padding: 10px;
+  margin: 10px;
+  text-align: center;
+  width: 300px;
+  height: 100px;
+}
+
+.subHeadline {
+  text-align: center;
+  margin: 10px;
+  color: #ffffff;
+}
+
+.addOns {
+  text-align: center;
+  margin: 5px;
+  color: #ffffff;
+}
+
+.button_input {
+  display: flex;
+  position: relative;
+  left: 90px;
+  padding: 0px;
+  margin: 20px;
+}
+
+#button_cta {
+  display: flex;
+  border-radius: 4px;
+  font-weight: 600;
+  line-height: 55px;
+  text-decoration: none;
+  text-transform: uppercase;
+  align-items: flex-start;
+  position: relative;
+  text-align: center;
+  padding-left: 32px;
+  padding-right: 32px;
+  font-size: 15px;
+  height: 60px;
+  font-family: Arial, Helvetica, sans-serif;
+  cursor: pointer;
+}
+
+.legal {
+  text-align: center;
+  margin: 2px;
+  color: #ffffff;
+}
+
+.mini_brands {
+  width: 400px;
+  height: 100px;
+}
+
+.ribbonContainer {
+  width: 100vw;
+  height: 150px;
+  display: flex;
+  align-content: flex-start;
+  position: absolute;
+  top: 775px;
+  background: linear-gradient(
+    318.68deg,
+    #0f495c 0%,
+    #0d3640 49.72%,
+    #08141f 100%
+  );
+  z-index: 1;
+}
+
+.mediaContainer {
+  display: flex;
+  position: absolute;
+  top: 925px;
+  width: 100vw;
+}
+
+.content_grid {
+  width: 100vw;
 }
